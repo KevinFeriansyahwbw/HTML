@@ -4,7 +4,7 @@
 <title>Form</title>
 </head>
 <body>
-<form action="nama_file.php" method="post" name="registrasi" target="_blank">
+<form action="latihanform.html" method="post" name="registrasi" target="_blank">
 <fieldset>
 <legend align="center" colspan="3" >Form Registrasi</legend>
 FIRST NAME : <input type="text" name="username" placeholder="username"><br><br>
@@ -14,8 +14,8 @@ PASSWORD :  <input type="password" name="password" placeholder="password"><br><b
 <input type="radio" name="gender" value="Perempuan"><label for="Perempuan">FEMALE</label><br><br>
 ADDRESS : <textarea placeholder="Alamat"></textarea><br><br>
 D.O.B
- <label for="birthday">Birthday:</label>
-  <input type="date" id="birthday" name="birthday"><br><br>
+<label for="birthday">Birthday:</label>
+<input type="date" id="birthday" name="birthday"><br><br>
 <label>SELECT GAMES : </label>
 <input type="checkbox" id="hockey"><label for="hockey">Hockey</label>
 <input type="checkbox" id="football"><label for="football">Football</label>
